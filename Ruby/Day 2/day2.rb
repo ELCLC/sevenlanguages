@@ -5,7 +5,7 @@
 # Read each line of file and print
 # File.readlines("data.txt").each { |line| puts line}
 
-# A hash can be a two dimensional array
+# A hash can be a two dimensional array: { 1 => 'one', 2 => 'two' } to [[1, 'one'], [2, 'two']]
 numbers = { 1 => 'one', 2 => 'two' }
 
 def hash_to_array(hashToTranslate={})
